@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirasEvents</string>
+    <string name="title_activity_add_map">Map</string>
+    <string name="title_activity_view">Map</string>
+</resources>

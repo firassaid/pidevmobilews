@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.firassaid.firasevents.AddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etNom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Nom"/>
+        <EditText
+            android:id="@+id/etDuree"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Duree"/>
+        <EditText
+            android:id="@+id/etLieu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Lieu"/>
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Description"/>
+        <EditText
+            android:id="@+id/etType"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Type"/>
+        <EditText
+            android:id="@+id/etPrix"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="40dp"
+            android:hint="Prix"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ajouter lieu"
+            android:id="@+id/bmap"/>
+        <Button
+            android:id="@+id/badd"
+            android:layout_marginTop="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Ajouter"/>
+
+        <Button
+            android:id="@+id/bback"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Retour"/>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
